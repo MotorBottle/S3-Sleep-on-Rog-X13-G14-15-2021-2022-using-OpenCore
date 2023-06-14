@@ -26,7 +26,7 @@ When you update the BIOS, if you get a blue screen saying ACPI error, just selec
 
 As we know Microsoft has been asking OEMs to deliberately block the option of S3 sleep mode on laptops (especially those released in recent years) and force the users to use S0 Sleep mode instead.
 
->S0 Sleep Mode keeps the computer in a so-called low-power state (not truly sleeping) so it can quickly wake-up and response to external events, but it consumes more power, and there have been many reports saying their laptop has been overheating insaide their backpacks, and even causing hardware damage.
+>S0 Sleep Mode keeps the computer in a so-called low-power state (not truly sleeping) so it can quickly wake-up and response to external events, but it consumes more power, and there have been many reports saying their laptop has been overheating inside their backpacks, and even causing hardware damage.
 
 >S3 Sleep Mode saves the system state to RAM, powers down most components for deeper power savings, but requires a slightly longer wake-up time (0.5-2 seconds) and the laptop won't automatically wake up when you lift the screen. You have to press a key or move your mouse to wake it up. But it prevents the laptop from overeating and also prevents it from falling into hibernation (which takes a whole precoess to boot up again). What's more, it only uses very few batter life (less than 10% a day) when it's sleeping.
 
