@@ -19,7 +19,6 @@ I've seen many disscussions on how to enable S3 sleep on the laptop. Some using 
   - [Step 7: Turn off flashing lights while sleeping](#step-7-turn-off-flashing-lights-while-sleeping)
 - [Extra explanations for Hackintosh users](#extra-explanations-for-hackintosh-users)
 
-
 ## Introduction
 
 As we know Microsoft has been asking OEMs to deliberately block the option of S3 sleep mode on laptops (especially those released in recent years) and force the users to use S0 Sleep mode instead.
@@ -31,9 +30,7 @@ As we know Microsoft has been asking OEMs to deliberately block the option of S3
 ## Why Using OpenCore
 The operation involves modifying one of the ACPI tables, called the DSDT. OpenCore is a morden and safer bootloader initially designed for hackintoshing, as a successor of Clover. Same as Clover, The modification is not permanent - nothing is written to the firmware itself - but rather through a bootloader that loads the modified DSDT before Windows starts. As I tested, the modification have run extremely stable on my G14 2022 (6900HS 6700S) for over a month, so I suggest using OpenCore (and you can even try installing hackintosh on you 2022 model, you can refer to [this post](https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh)).
 
-
 ## Steps
-
 ### Step 1: Disable S0 sleep under Windows
 *This part is referred from the [clover s3 sleep tutorial](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698):*
 
@@ -107,7 +104,6 @@ Add the new Boot option:
 Set it as #1 boot priority
 
 ![Alt text](11eb3994da8361d72f44ab63bd68344.jpg)
-
 
 ### Step 5: Restart and Boot Using OpeCore
 Reboot the computer and you would be booted into windows with S3 Sleep Mode enabled. You can use: 
