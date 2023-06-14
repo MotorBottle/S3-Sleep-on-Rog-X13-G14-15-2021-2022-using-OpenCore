@@ -136,7 +136,7 @@ During S3 sleep, the power on led on the left side double-blinks. If you're anno
 
 ![Alt text](image-5.png)
 
-### extra explainations for hackintosh users
+## Extra Explainations for Hackintosh Users
 Everything's done from here. I'm only adding some explanations for hackintosh users who are worried about the SMBIOS influencing the windows.
 
 I directly moded the EFI configured for G14 2022 hackintoshing by @b00t0x, but if you want to hackintosh the machine, I suggest you directly check [his project](https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh) and mod the files provided there.
