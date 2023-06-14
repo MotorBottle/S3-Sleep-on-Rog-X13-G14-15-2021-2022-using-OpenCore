@@ -144,7 +144,7 @@ Everything's done from here. I'm only adding some explanations for hackintosh us
 
 I directly moded the EFI configured for G14 2022 hackintoshing by @b00t0x, but if you want to hackintosh the machine, I suggest you directly check [his project](https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh) and mod the files provided there.
 
-In [this](https://www.reddit.com/r/hackintosh/comments/lnh66w/windows_through_opencore_shows_as_macpro/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) post, Some one provided the way to avoid SMBIOS settings in OC to impact windows. If you want to build your own OpenCore bootloader, you can refer to this.
+In [this](https://www.reddit.com/r/hackintosh/comments/lnh66w/windows_through_opencore_shows_as_macpro/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) post, someone provided the way to avoid SMBIOS settings in OC to impact windows. If you want to build your own OpenCore bootloader, you can refer to this.
 
 >If you boot Windows from OC, to prevent OC from injecting SMBIOS values to Windows you have to act on these keys in config.plist:
 - Kernel> Quirks> CustomSMBIOSGuid> True (default is False)
