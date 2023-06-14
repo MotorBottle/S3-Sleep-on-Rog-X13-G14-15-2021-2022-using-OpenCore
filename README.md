@@ -3,7 +3,7 @@ This tutorial helps you enable the hidden S3 sleeping mode on your laptop withou
 
 Support tested : Asus Rog G14 2022 GA402RJ BIOS V312/318
 
-This should be working for other models as well as the 2021/2023 models (and more, even more brands, you can test out, if not working you can simply chose the original boot option and delet the file I provided), you can test and share the results in dissucssion.
+This should be working for other models as well as the 2021/2023 models (and more, even more brands, you can test out, if not working you can simply choose the original boot option and delet the file I provided), you can test and share the results in dissucssion.
 
 I've seen many disscussions on how to enable S3 sleep on the laptop. Some using RU to modify the BIOS, but it might cause a damage to the BIOS and that might be hard to recover for common users, also RU was [reportedly not working on the 2022 model](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698#important=update). There are two more helpful works I read about, one using [Colver (another hakintosh bootloader)](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698) and [another](https://gitlab.com/marcaux/g14-2021-s3-dsdt) confirming modifying DSDT.aml could fix sleeping issues under linux (for 2021/2022 models and ROG G15 as well).
 
@@ -96,7 +96,7 @@ Go to __R:\EFI__ and put the 2 folders into it.
 ![Alt text](Snipaste_2023-06-14_17-21-58-1.jpg)
 
 ### Step 4: BIOS settings
-Reboot the computer and keep clicking the ESC buttom when the boot sound beeing played, and chose enter setup. Then press F7 to enter advanced mode and disable Secure boot.
+Reboot the computer and keep clicking the ESC button when the boot sound being played, and choose enter setup. Then press F7 to enter advanced mode and disable Secure boot.
 
 ![Alt text](image-3.png)
 
