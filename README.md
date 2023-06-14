@@ -19,6 +19,9 @@ I've seen many disscussions on how to enable S3 sleep on the laptop. Some using 
   - [Step 7: Turn off flashing lights while sleeping](#step-7-turn-off-flashing-lights-while-sleeping)
 - [Extra explanations for Hackintosh users](#extra-explanations-for-hackintosh-users)
 
+## Important note
+When you update the BIOS, if you get a blue screen saying ACPI error, just select the origin windows boot option and redo Step 2 and replace the DSDT.aml file again in EFI partition.
+
 ## Introduction
 
 As we know Microsoft has been asking OEMs to deliberately block the option of S3 sleep mode on laptops (especially those released in recent years) and force the users to use S0 Sleep mode instead.
@@ -146,3 +149,5 @@ In [this](https://www.reddit.com/r/hackintosh/comments/lnh66w/windows_through_op
 >If you boot Windows from OC, to prevent OC from injecting SMBIOS values to Windows you have to act on these keys in config.plist:
 - Kernel> Quirks> CustomSMBIOSGuid> True (default is False)
 - PlatformInfo> UpdateSMBIOSMode> Custom (default is Create).
+
+By the way, OpenCore does have the function to directly find and replace contents in ACPI tables, but I have not tested if that's gonna work in this case. If it does, things would get even easier.
