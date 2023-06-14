@@ -62,7 +62,7 @@ Open the dunmped __DSDT.aml__ file using __Xiasl__ and the thins to be modified 
 
 First find "__DefinitionBlock ("", "DSDT", 2, "ALASKA", "A M I ", 0x01072009)__" on top of the file
 
-"__0x01072009__" is the version of file and could be different for different models. What you gonna do is increase the version, for example in this case, as hexadecimal is used here, you can change the last number fro "__9__" into "__A__" which looks like "__0x0107200A__"
+"__0x01072009__" is the version of file and could be different for different models. What you gonna do is increase the version, for example in this case, as hexadecimal is used here, you can change the last number from "__9__" into "__A__" which ends up looking like "__0x0107200A__"
 
 ![Alt text](Snipaste_2023-06-14_16-33-57-1.jpg)
 
