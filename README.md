@@ -18,7 +18,7 @@ I've seen many disscussions on how to enable S3 sleep on the laptop. Some using 
   - [Step 6: Modify Power Plans in Control Panel](#step-6-modify-power-plans-in-control-panel)
   - [Step 7: Turn off flashing lights while sleeping](#step-7-turn-off-flashing-lights-while-sleeping)
 - [Problem Solving: Battery Drain after Waking From Sleep](#problem-solving-battery-drain-after-waking-from-sleep)
-- [Extra explanations for Hackintosh users](#extra-explanations-for-hackintosh-users)
+- [Extra Explanations for Hackintosh Users](#extra-explanations-for-hackintosh-users)
 
 ## Important note
 When you update the BIOS, if you get a blue screen saying ACPI error, just select the origin windows boot option and redo Step 2 and replace the DSDT.aml file again in EFI partition.
