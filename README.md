@@ -141,7 +141,7 @@ During S3 sleep, the power on led on the left side double-blinks. If you're anno
 ![Alt text](image-5.png)
 
 ## Problem Solving: Battery Drain after Waking From Sleep
-When you set your gpu mode to "__igpu only__" in Armoury Crate, you might notice that your battery drains very quickly after waking from both s0/s3 sleep. This is an long-existing bug/issue unsolved by Asus, which appears as an over 30 Watts power consumption after waking from sleep even if you open or run nothing. The problem was with the driver/control with the dgpu, which means __the computer's dgpu runs somehow in background even if in igpu mode set by Armoury Crate after waking from sleep__ (Hibernate/Reboot won't cause this).
+When you set your gpu mode to "__igpu only__" in Armoury Crate, you might notice that your battery drains very quickly after waking from both s0/s3 sleep. This is an long-existing bug/issue unsolved by Asus, which appears as an over 30 Watts power consumption after waking from sleep even if you open or run nothing. The problem was with the driver/control with the dgpu, which means __the computer's dgpu runs somehow in background even if in "igpu mode" set by Armoury Crate after waking from sleep__ (Hibernate/Reboot won't cause this).
 
 There's temperory solutions. First is __use mixed mode__ instead of __igpu only__, currently the bug doesn't happen under this mode, and if you set power mode as silent, the dgpu hardly works, so doesn't matter. Second is __switch to mixed__ and then __back to igpu only__ everytime your laptop wake from sleep, this would stop the dgpu from draining your battery.
 
