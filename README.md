@@ -14,9 +14,10 @@ I've seen many disscussions on how to enable S3 sleep on the laptop. Some using 
   - [Step 2: Dump and Modify the DSDT file (under Windows)](#step-2-dump-and-modify-the-dsdt-file-under-windows)
   - [Step 3: Download and Install Opencore](#step-3-download-and-install-opencore)
   - [Step 4: BIOS settings](#step-4-bios-settings)
-  - [Step 5: Restart and Boot Using OpeCore](#step-5-restart-and-boot-using-opecore)
+  - [Step 5: Restart and Boot Using OpenCore](#step-5-restart-and-boot-using-opencore)
   - [Step 6: Modify Power Plans in Control Panel](#step-6-modify-power-plans-in-control-panel)
   - [Step 7: Turn off flashing lights while sleeping](#step-7-turn-off-flashing-lights-while-sleeping)
+- [Problem Solving: Battery Drain after Waking From Sleep](#problem-solving-battery-drain-after-waking-from-sleep)
 - [Extra explanations for Hackintosh users](#extra-explanations-for-hackintosh-users)
 
 ## Important note
@@ -108,7 +109,7 @@ Set it as #1 boot priority
 
 ![Alt text](11eb3994da8361d72f44ab63bd68344.jpg)
 
-### Step 5: Restart and Boot Using OpeCore
+### Step 5: Restart and Boot Using OpenCore
 Reboot the computer and you would be booted into windows with S3 Sleep Mode enabled. You can use: 
 
 >powercfg /a
@@ -138,6 +139,13 @@ During S3 sleep, the power on led on the left side double-blinks. If you're anno
 ![Alt text](image-4.png)
 
 ![Alt text](image-5.png)
+
+## Problem Solving: Battery Drain after Waking From Sleep
+When you set your gpu mode to "__igpu only__" in Armoury Crate, you might notice that your battery drains very quickly after waking from both s0/s3 sleep. This is an long-existing bug/issue unsolved by Asus, which appears as an over 30 Watts power consumption after waking from sleep even if you open or run nothing. The problem was with the driver/control with the dgpu, which means __the computer's dgpu runs somehow in background even if in igpu mode set by Armoury Crate after waking from sleep__ (Hibernate/Reboot won't cause this).
+
+There's temperory solutions. First is __use mixed mode__ instead of __igpu only__, currently the bug doesn't happen under this mode, and if you set power mode as silent, the dgpu hardly works, so doesn't matter. Second is __switch to mixed__ and then __back to igpu only__ everytime your laptop wake from sleep, this would stop the dgpu from draining your battery.
+
+If you care much about power saving and expect the battery life to be as long as enough, it's suggested that you turn off sleep and only keep hibernation enabled.
 
 ## Extra Explainations for Hackintosh Users
 Everything's done from here. I'm only adding some explanations for hackintosh users who are worried about the SMBIOS influencing the windows.
