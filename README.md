@@ -19,6 +19,7 @@ I've seen many disscussions on how to enable S3 sleep on the laptop. Some using 
   - [Step 7: Turn off flashing lights while sleeping](#step-7-turn-off-flashing-lights-while-sleeping)
 - [Problem Solving: Battery Drain after Waking From Sleep](#problem-solving-battery-drain-after-waking-from-sleep)
 - [Extra Explanations for Hackintosh Users](#extra-explanations-for-hackintosh-users)
+- [References](#references)
 
 ## Important note
 When you update the BIOS, if you get a blue screen saying ACPI error, just select the origin windows boot option and redo Step 2 and replace the DSDT.aml file again in EFI partition.
@@ -159,3 +160,10 @@ In [this](https://www.reddit.com/r/hackintosh/comments/lnh66w/windows_through_op
 - PlatformInfo> UpdateSMBIOSMode> Custom (default is Create).
 
 By the way, OpenCore does have the function to directly find and replace contents in ACPI tables, but I have not tested if that's gonna work in this case. If it does, things would get even easier.
+
+## References
+I'm listing the sources again at the end of this tutorial. Many thanks to those who provided the ideas solutions in solving the problem!
+- https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698#important=update
+- https://gitlab.com/marcaux/g14-2021-s3-dsdt
+- https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh
+- https://www.reddit.com/r/hackintosh/comments/lnh66w/windows_through_opencore_shows_as_macpro/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
