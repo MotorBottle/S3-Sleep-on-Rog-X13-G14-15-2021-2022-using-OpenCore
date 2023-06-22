@@ -134,7 +134,7 @@ Then your sleeping should be OK!
 ### Step 7: Turn off flashing lights while sleeping
 *This part is referred from the [clover s3 sleep tutorial](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698):*
 
-During S3 sleep, the power on led on the left side double-blinks. If you're annoyed by the keyboard backlight double-blinking, this can be disabled in Armoury Crate->System->Lighting->Settings:
+During S3 sleep, the power-on led on the left side double-blinks. If you're annoyed by the blinking led (and want to save a little bit more battery), this can be disabled in Armoury Crate->System->Lighting->Settings:
 
 ![Alt text](image-4.png)
 
