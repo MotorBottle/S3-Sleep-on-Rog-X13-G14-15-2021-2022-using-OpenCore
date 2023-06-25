@@ -151,7 +151,7 @@ There's temperory solutions. First is __use mixed mode__ instead of __igpu only_
 
 If you care much about power saving and expect the battery life to be as long as enough, it's suggested that you turn off sleep and only keep hibernation enabled.
 
-## Extra Explainations for Hackintosh Users
+## Extra Explanations for Hackintosh Users
 Everything's done from here. I'm only adding some explanations for hackintosh users who are worried about the SMBIOS influencing the windows.
 
 I directly moded the EFI configured for G14 2022 hackintoshing by @b00t0x, but if you want to hackintosh the machine, I suggest you directly check [his project](https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh) and mod the files provided there.
