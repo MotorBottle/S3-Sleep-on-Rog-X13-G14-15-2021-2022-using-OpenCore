@@ -1,4 +1,4 @@
-# Enable S3 Sleep on Rog X13/G14/15 2021/2022 using OpenCore
+# Enable S3 Sleep on ROG X13/G14/15 2021/2022 using OpenCore
 This tutorial helps you enable the hidden S3 sleeping mode on your laptop without modifying your BIOS. (Safest way, using OpenCore Bootloader)
 
 Support tested : Asus ROG G14 2022 GA402RJ BIOS V312/318
