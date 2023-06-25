@@ -21,6 +21,7 @@ I've seen many disscussions on how to enable S3 sleep on the laptop. Some using 
   - [Step 7: Turn off flashing lights while sleeping](#step-7-turn-off-flashing-lights-while-sleeping)
 - [Problem Solving: Battery Drain after Waking From Sleep](#problem-solving-battery-drain-after-waking-from-sleep)
 - [Extra Explanations for Hackintosh Users](#extra-explanations-for-hackintosh-users)
+- [Easier Way?](#easier-way)
 - [References](#references)
 
 ## Important note
@@ -161,7 +162,8 @@ In [this](https://www.reddit.com/r/hackintosh/comments/lnh66w/windows_through_op
 - Kernel> Quirks> CustomSMBIOSGuid> True (default is False)
 - PlatformInfo> UpdateSMBIOSMode> Custom (default is Create).
 
-By the way, OpenCore does have the function to directly find and replace contents in ACPI tables, but I have not tested if that's gonna work in this case. If it does, things would get even easier.
+## Easier Way?
+By the way, OpenCore does have the function to directly find and replace contents in ACPI tables, but I have not tested if that's gonna work in this case. If it does, things would get even easier. Could anyone test and share the result?
 
 ## References
 I'm listing the sources again at the end of this tutorial. Many thanks to those who provided the ideas solutions in solving the problem!
