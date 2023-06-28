@@ -166,7 +166,7 @@ In [this](https://www.reddit.com/r/hackintosh/comments/lnh66w/windows_through_op
 By the way, OpenCore does have the function to directly find and replace contents in ACPI tables, but I have not tested if that's gonna work in this case. If it does, things would get even easier. Could anyone test and share the result?
 
 ## References
-I'm listing the sources again at the end of this tutorial. Many thanks to those who provided the ideas solutions in solving the problem!
+I'm listing the sources again at the end of this tutorial. Many thanks to those who provided the ideas and solutions in solving the problem!
 - https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698#important=update
 - https://gitlab.com/marcaux/g14-2021-s3-dsdt
 - https://github.com/b00t0x/ROG-Zephyrus-G14-GA402-Hackintosh
