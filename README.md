@@ -7,7 +7,7 @@ Should be supporting: [Asus ROG X13 2021/2022](https://gist.github.com/raenye/d6
 
 This should be working for other models as well as the 2021/2023 models (and more, even more brands, you can test out, if not working you can simply choose the original boot option and delet the file I provided), you can test and share the results in dissucssion.
 
-I've seen many disscussions on how to enable S3 sleep on the laptop. Some using RU to modify the BIOS, but it might cause a damage to the BIOS and that might be hard to recover for common users, also RU was [reportedly not working on the 2022 model](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698#important=update). There are two more helpful works I read about, one using [Colver (another hakintosh bootloader)](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698) and [another](https://gitlab.com/marcaux/g14-2021-s3-dsdt) confirming modifying DSDT.aml could fix sleeping issues under linux (for 2021/2022 models and ROG G15 as well).
+I've seen many disscussions on how to enable S3 sleep on the laptop. Some using RU to modify the BIOS, but it might cause a damage to the BIOS and that might be hard to recover for common users, also RU was [reportedly not working on the 2022 model](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698#important=update). There are two more helpful works I read about, one using [Colver for ROG X13 (another hakintosh bootloader)](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698) and [another](https://gitlab.com/marcaux/g14-2021-s3-dsdt) confirming modifying DSDT.aml could fix sleeping issues under linux (for 2021/2022 models and ROG G15 as well).
 
 - [Introduction](#introduction)
 - [Why Using OpenCore](#why-using-opencore)
