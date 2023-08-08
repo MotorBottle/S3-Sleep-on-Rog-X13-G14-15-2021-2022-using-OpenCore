@@ -71,7 +71,7 @@ First find "__DefinitionBlock ("", "DSDT", 2, "ALASKA", "A M I ", 0x01072009)__"
 
 ![Alt text](Snipaste_2023-06-14_16-33-57-1.jpg)
 
-Then press __ctrl+F__ and type "__(SS3, Zero)__" and press Enter, then you want to find and replace the "__Zero__" with "__One__" ----(SS3, One)
+Then press __ctrl+F__ and type "__(SS3, Zero)__" and press Enter, then you want to find and replace the "__Zero__" with "__One__" ----(SS3, One) ----IMPORTANT: you can try skip this step if things don't work properly, and only do the next replacement 
 
 Then press __ctrl+F__ and type "__(XS3, Package (0x04)__", replace the "__XS3__" with "____S3___" ----(_S3, Package (0x04))
 
