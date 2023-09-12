@@ -20,6 +20,7 @@ I've seen many disscussions on how to enable S3 sleep on the laptop. Some using 
   - [Step 6: Modify Power Plans in Control Panel](#step-6-modify-power-plans-in-control-panel)
   - [Step 7: Turn off flashing lights while sleeping](#step-7-turn-off-flashing-lights-while-sleeping)
 - [Problem Solving: Battery Drain after Waking From Sleep](#problem-solving-battery-drain-after-waking-from-sleep)
+- [CPU Power Capped at 30 Watts After Using PD Charger](#CPU-Power-Capped-at-30 Watts-After-Using-PD-Charger)
 - [Extra Explanations for Hackintosh Users](#extra-explanations-for-hackintosh-users)
 - [Easier Way?](#easier-way)
 - [References](#references)
@@ -150,6 +151,9 @@ When you set your gpu mode to "__igpu only__" in Armoury Crate, you might notice
 There's temperory solutions. First is __use mixed mode__ instead of __igpu only__, currently the bug doesn't happen under this mode, and if you set power mode as silent, the dgpu hardly works, so doesn't matter. Second is __switch to mixed__ and then __back to igpu only__ everytime your laptop wake from sleep, this would stop the dgpu from draining your battery.
 
 If you care much about power saving and expect the battery life to be as long as enough, it's suggested that you turn off sleep and only keep hibernation enabled.
+
+## CPU Power Capped at 30 Watts After Using PD Charger
+When you use a pd charger, you might find your cpu power capped at 30w even if you switch back to the DC (rounded one) charger. This is another long-exisiting bug ASUS never tried to fix. The way to solve it is to shut your computer with DC charger plugged, then unplug the charger for 5 mins. Then plug in the charger and boot your notebook. For me it solves the problem temperorily. If you want to get rid of this, you can buy a type c PD female to DC male adapter (Chinese name is pd诱骗器).
 
 ## Extra Explanations for Hackintosh Users
 Everything's done from here. I'm only adding some explanations for hackintosh users who are worried about the SMBIOS influencing the windows.
