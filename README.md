@@ -20,7 +20,7 @@ I've seen many disscussions on how to enable S3 sleep on the laptop. Some using 
   - [Step 6: Modify Power Plans in Control Panel](#step-6-modify-power-plans-in-control-panel)
   - [Step 7: Turn off flashing lights while sleeping](#step-7-turn-off-flashing-lights-while-sleeping)
 - [Problem Solving: Battery Drain after Waking From Sleep](#problem-solving-battery-drain-after-waking-from-sleep)
-- [CPU Power Capped at 30 Watts After Using PD Charger](#CPU-Power-Capped-at-30 Watts-After-Using-PD-Charger)
+- [CPU Power Capped at 30 Watts After Using PD Charger](#cpu-power-capped-at-30 watts-after-using-pd-charger)
 - [Extra Explanations for Hackintosh Users](#extra-explanations-for-hackintosh-users)
 - [Easier Way?](#easier-way)
 - [References](#references)
