@@ -173,6 +173,8 @@ In [this](https://www.reddit.com/r/hackintosh/comments/lnh66w/windows_through_op
 ## Easier Way?
 By the way, OpenCore does have the function to directly find and replace contents in ACPI tables, but I have not tested if that's gonna work in this case. If it does, things would get even easier. Could anyone test and share the result?
 
+Update: this might not work after searching on some docs. So just use the provided way above. :P
+
 ## References
 I'm listing the sources again at the end of this tutorial. Many thanks to those who provided the ideas and solutions in solving the problem!
 - https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698#important=update
