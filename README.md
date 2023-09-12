@@ -136,6 +136,10 @@ Disable Hybrid sleep and Hibernation and the last thing (don't know its Egnlish 
 
 Then your sleeping should be OK!
 
+P.S.
+
+If you're unable to turn off hibernation in Control Panel, you can use "poweercfg /h off" in cmd to turn it off.
+
 ### Step 7: Turn off flashing lights while sleeping
 *This part is referred from the [clover s3 sleep tutorial](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698):*
 
