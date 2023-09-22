@@ -3,7 +3,8 @@ This tutorial helps you enable the hidden S3 sleeping mode on your laptop withou
 
 Support tested : Asus ROG G14 2022 GA402RJ BIOS V312/318
 
-Should be supporting: [Asus ROG X13 2021/2022](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698)  /  [Asus ROG G14/G15 2021/2022](https://gitlab.com/marcaux/g14-2021-s3-dsdt)
+Might be supporting: [Asus ROG X13 2021/2022](https://gist.github.com/raenye/d6645d7039a6136ccfb055e0f8517698)  /  [Asus ROG G14/G15 2021/2022](https://gitlab.com/marcaux/g14-2021-s3-dsdt)
+Update: Rog X13 2022(6800hs sku) and G15 2022 seems [unable to wake from sleep following this guide](https://www.bilibili.com/read/cv24653930/#reply186782916544).
 
 This should be working for other models as well as the 2021/2023 models (and more, even more brands, you can test out, if not working you can simply choose the original boot option and delet the file I provided), you can test and share the results in dissucssion.
 
